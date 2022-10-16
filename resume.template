@@ -153,7 +153,7 @@
                         {{/if}}
                         {{#ifCond url '&&' name}}
                           <strong>{{position}}</strong>
-                          at <strong><a href="{{website}}">{{name}}</a></strong>
+                          at <strong><a href="{{url}}">{{name}}</a></strong>
                         {{else}}
                           {{#if name.length}}
                             <strong>{{position}}</strong>
