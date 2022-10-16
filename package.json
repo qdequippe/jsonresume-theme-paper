@@ -1,17 +1,17 @@
 {
-  "name": "jsonresume-theme-paper",
+  "name": "qdequippe/jsonresume-theme-paper",
   "version": "0.5.0",
   "description": "A theme for JSON Resume",
-  "author": "Tim Daubenschütz",
+  "author": "Quentin Dequippe",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TimDaub/jsonresume-theme-paper"
+    "url": "https://github.com/qdequippe/jsonresume-theme-paper"
   },
   "license": "MIT",
   "dependencies": {
     "handlebars": "^4.5.3"
   },
-  "homepage": "https://github.com/TimDaub/jsonresume-theme-paper",
+  "homepage": "https://github.com/qdequippe/jsonresume-theme-paper",
   "main": "index.js",
   "scripts": {
     "start": "resume serve"
