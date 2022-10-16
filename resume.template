@@ -151,7 +151,7 @@
                         {{else}}
                           <p>
                         {{/if}}
-                        {{#ifCond website '&&' name}}
+                        {{#ifCond url '&&' name}}
                           <strong>{{position}}</strong>
                           at <strong><a href="{{website}}">{{name}}</a></strong>
                         {{else}}
