@@ -145,17 +145,17 @@
                       {{/if}}
                     </div>
                     <div class="content-text work-listing education-listing">
-                      {{#ifCond company '||' position}}
+                      {{#ifCond name '||' position}}
                         {{#if $first}}
                           <p>
                         {{else}}
                           <p>
                         {{/if}}
-                        {{#ifCond website '&&' company}}
+                        {{#ifCond website '&&' name}}
                           <strong>{{position}}</strong>
                           at <strong><a href="{{website}}">{{company}}</a></strong>
                         {{else}}
-                          {{#if company.length}}
+                          {{#if name.length}}
                             <strong>{{position}}</strong>
                             at <strong>{{company}}</strong>
                           {{else}}
